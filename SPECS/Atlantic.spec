@@ -49,5 +49,8 @@ find %{buildroot}/lib/modules/%{uname} -name "*.ko" -type f | xargs chmod u+x
 %doc
 
 %changelog
+* Mon Jun 3 2019 Rushikesh Jadhav <rushikesh7@gmail.com>
+- Auto appends kernel_version
+
 * Thu Jan 17 2019 Rushikesh Jadhav <rushikesh7@gmail.com> - 2.0.15.0
 - Added driver Atlantic-2.0.15.0 for XG-C100C
